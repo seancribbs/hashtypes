@@ -1,0 +1,6 @@
+{application, hashtypes,
+ [
+  {description, "A port of Elixir's hashdict and hashset to pure Erlang."},
+  {vsn, git},
+  {applications, [kernel, stdlib]}
+ ]}.
