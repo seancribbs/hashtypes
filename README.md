@@ -5,6 +5,15 @@ provide greater scalability across different element counts than
 Erlang's standard library, automatically switching between
 ordered/list types and nested/hash types at well-tuned thresholds.
 
+**NOTE**: This is incomplete and untested, as it is a straight port. I
+will be adding QuickCheck properties that test the gamut of API operations.
+
+## TODO
+
+* Finish porting HashSet
+* eunit smoke tests
+* QuickCheck properties for set and dict, test against stdlib as well
+
 ## Copyright and License
 
 Copyright 2013-2014, Sean Cribbs
